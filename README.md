@@ -1,4 +1,5 @@
 # Zzloot v5.0
+# https://ko-fi.com/zanzah_z
 Ashita v4 looter/helper for FFXI clients. 
 Zzloot can lot, pass, drop, auto-load zone profiles, and show/toggle a flexible on-screen rule list.
 
