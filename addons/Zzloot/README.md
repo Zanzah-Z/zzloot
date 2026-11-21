@@ -32,9 +32,9 @@ Enables or disables Zzloot.
 ### Lot / Pass / Drop rules
 Rules use:
 
-/zzl <rule> <action> <item or ID#>
+/zzl &lt;rule&gt; &lt;action&gt; &lt;item or ID#&gt;
 
-/zzl <action> <rule> <item or ID#>
+/zzl &lt;action&gt; &lt;rule&gt; &lt;item or ID#&gt;
 
 
 Rules:
@@ -95,7 +95,7 @@ Single-word names can be typed bare. Multi-word names should be wrapped.
 
 /zzl p + "Valor Surcoat"
 
-/zzl p + <Valor Surcoat>
+/zzl p + &lt;Valor Surcoat&gt;
 
 /zzl p + [Valor Surcoat]
 
@@ -162,22 +162,22 @@ Clears `LOT`, `PASS`, and `DROP`, then resets loaded profiles to the current zon
 
 Profiles are stored under the character-specific Ashita config path:
 
-config\addons\Zzloot\<Name>_<ServerId>\
+config\addons\Zzloot\&lt;Name&gt;_&lt;ServerId&gt;\
 
 
 Commands:
 
 /zzl save
 
-/zzl save <Name>
+/zzl save &lt;Name&gt;
 
-/zzl load <Name>
+/zzl load &lt;Name&gt;
 
-/zzl load <A> <B> <C>
+/zzl load &lt;A&gt; &lt;B&gt; &lt;C&gt;
 
-/zzl unload <Name>
+/zzl unload &lt;Name&gt;
 
-/zzl unload <A> <B> <C>
+/zzl unload &lt;A&gt; &lt;B&gt; &lt;C&gt;
 
 
 Notes:
@@ -267,9 +267,9 @@ If the header/buttons go off-screen, holding `SHIFT` while not dragging for abou
 
 ### Delay
 
-/zzl delay <seconds>
+/zzl delay &lt;seconds&gt;
 
-When `Delay > 0`, per-action delay is randomized inside the configured delay range. When unset or zero, the addon uses its default 0.5~2.0sec randomized delay.
+When `Delay &gt; 0`, per-action delay is randomized inside the configured delay range. When unset or zero, the addon uses its default 0.5~2.0sec randomized delay.
 
 
 ### Misc toggles
@@ -296,7 +296,7 @@ Resets addon settings to defaults while preserving saved lists, profiles, and ig
 
 ### Special item keywords
 
-The <item> command supports several built-in keyword groups:
+The &lt;item&gt; command supports several built-in keyword groups:
 
 pool
 
@@ -387,7 +387,7 @@ Load in game:
 
 ### v4.0g
 - Reassigned `/zzl d` to the Drop rule list.
-- Removed the short `d` alias for delay; delay is now set only with `/zzl delay <seconds>`.
+- Removed the short `d` alias for delay; delay is now set only with `/zzl delay &lt;seconds&gt;`.
 - Updated help text / command reference for new layout/changes.
 
 
@@ -398,7 +398,7 @@ Load in game:
 
 
 ### v4.0e
-- Changed the LOT inventory check from `> 1` free slot to `>= 1`.
+- Changed the LOT inventory check from `&gt; 1` free slot to `&gt;= 1`.
 - Added a pre-LOT Rare-item validation check.
 - Added once-per-pool warning messages if blocked lot is skipped.
 
