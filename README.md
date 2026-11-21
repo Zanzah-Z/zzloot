@@ -1,5 +1,5 @@
 # Zzloot v5.0
-# https://ko-fi.com/zanzah_z
+
 Ashita v4 looter/helper for FFXI clients. 
 Zzloot can lot, pass, drop, auto-load zone profiles, and show/toggle a flexible on-screen rule list.
 
@@ -352,7 +352,8 @@ Load in game:
 
 - Unloading profiles/lists removes those profile rules from the current zone set.
 
-
+## https://ko-fi.com/zanzah_z 
+(If you wish to help support my other ongoing projects.)
 
 ## UPDATES ##
 
